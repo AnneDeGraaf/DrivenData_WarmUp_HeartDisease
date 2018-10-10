@@ -1,14 +1,17 @@
 Worksheet:
 
-- change data into all numerical
-- visualize data
-- normalize data
+x change all categorical data into one-hot
+x visualize data distribution 
+x normalize data
+- you can try another model where you delete certain outliers later perhaps. But you should read more about it first.
 
-- create outlines of first rough model
+- create outlines of first rough model:
+	- logistic regression model
+	- don't use all features immediately, but increment as needed. 
 - create infrastructure for model running and testing, evaluating performance
-	- cost function
+	x cost function
 	- optimization function
-	- deviding training data into train/crossval/test
+	- deviding training data into train and dev:
 - work out first rough model (don't take more than 1 day)
 - visualization of model performance:
 	- train and crossval cost against number of iterations

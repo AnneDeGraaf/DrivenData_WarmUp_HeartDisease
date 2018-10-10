@@ -11,7 +11,6 @@ y = pd.read_csv('../train_labels.csv', index_col=0)
 # choose a selection of features to use in model
 useCols = ['resting_blood_pressure','age','chestPain_1','chestPain_2','chestPain_3','chestPain_4']
 X = allFeatures[useCols]
-nCols = len(useCols)
 
 # split the train set in train and crossval set
 X_train, X_cross, y_train, y_cross = train_test_split(X, y, test_size=0.3, random_state=1)
