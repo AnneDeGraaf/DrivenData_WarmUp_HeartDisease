@@ -1,0 +1,18 @@
+Worksheet:
+
+- change data into all numerical
+- visualize data
+- normalize data
+
+- create outlines of first rough model
+- create infrastructure for model running and testing, evaluating performance
+	- cost function
+	- optimization function
+	- deviding training data into train/crossval/test
+- work out first rough model (don't take more than 1 day)
+- visualization of model performance:
+	- train and crossval cost against number of iterations
+	- is there bias or variance?
+
+- what's next?
+
