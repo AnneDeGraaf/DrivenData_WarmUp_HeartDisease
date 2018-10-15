@@ -4,6 +4,6 @@ See: https://www.drivendata.org/competitions/54/machine-learning-with-a-heart/pa
 
 So far my best score was 0.32931 (16th place on Oct 10) using a logistic regression model.
 
-logisticRegression_modelDevelopment.ipynb: development of the logistic regression model.
+modelDevelopment.ipynb: development of the logistic regression model.
 data_processing.py: normalizing data and one-hot encoding of categorical data
 Worksheet.txt: worksheet.
