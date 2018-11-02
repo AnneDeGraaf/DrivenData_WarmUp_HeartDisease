@@ -27,7 +27,7 @@ rawTest = rawTest.join([testSlope_oneHot, testThal_oneHot, testChestPain_oneHot,
 print(rawTrain.isnull().values.any())
 print(rawTest.isnull().values.any())
 
-# apply z-score normalization to numerical data
+# apply normalization to numerical data
 numCols = ['resting_blood_pressure', 'serum_cholesterol_mg_per_dl', 'oldpeak_eq_st_depression', 'age', 'max_heart_rate_achieved']
 for col in numCols:
 	rawTest[col] = (rawTest[col] - rawTrain[col].mean()) / rawTrain[col].std()
