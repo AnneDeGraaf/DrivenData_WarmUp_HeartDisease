@@ -17,5 +17,16 @@ x normalize data
 	- train and crossval cost against number of iterations
 	- is there bias or variance?
 
-- what's next?
+
+Final notebook:
+- load data
+- perform the simple version of linear regression that performed so well
+- svm thingy
+- Lasso version with optimal C=0.25
+- This is obviously not working very well. Try other way of feature selection:
+- But first maybe worth trying elastic net? Does Lasso have overfit or underfit in the first place?
+- Select K Best with that graph showing is doesn't work very well
+- Maybe the contingency tables?
+- Forward stepwise feature selection.
+- THE END. 
 
