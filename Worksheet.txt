@@ -18,7 +18,12 @@ x normalize data
 	- is there bias or variance?
 
 
-Final notebook:
+Final/summary notebook:
+- You have to add something about how really weird it is that crossval, train and test performance 
+	do not give results that are logical in relation to each other. 
+		- crossval is not at all reliable value. True performance is always far better that crossval
+		- test performance is better indicated by train performance than crossval performance
+		- test performace is often even better than train performance. 
 - load data
 - perform the simple version of linear regression that performed so well
 - svm thingy
